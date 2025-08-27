@@ -1,0 +1,10 @@
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\obj\Debug\RM.Cst.SmartX.Piloto.Service.csproj.AssemblyReference.cache
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\obj\Debug\RM.Cst.SmartX.Piloto.Service.Properties.Resources.resources
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\obj\Debug\RM.Cst.SmartX.Piloto.Service.csproj.GenerateResource.cache
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\obj\Debug\RM.Cst.SmartX.Piloto.Service.csproj.CoreCompileInputs.cache
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\bin\Debug\RM.Cst.SmartX.Piloto.Service.dll
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\bin\Debug\RM.Cst.SmartX.Piloto.Service.pdb
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\obj\Debug\RM.Cst.SmartX.Piloto.Service.dll
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Service\obj\Debug\RM.Cst.SmartX.Piloto.Service.pdb
+C:\RM\Atual\Release\Bin\RM.Cst.SmartX.Piloto.Service.dll
+C:\RM\Atual\Release\Bin\RM.Cst.SmartX.Piloto.Service.pdb

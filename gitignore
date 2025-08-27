@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+
+# Logs
+*.log
+
+# Databases and Temp files
+*.db
+*.db-shm
+*.db-wal
+*.vsidx
+
+# Backup files
+*.backup.json
