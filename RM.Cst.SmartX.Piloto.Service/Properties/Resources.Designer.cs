@@ -196,6 +196,51 @@ namespace RM.Cst.SmartX.Piloto.Service.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Alcool.
+        /// </summary>
+        internal static string CstAlcool {
+            get {
+                return ResourceManager.GetString("CstAlcool", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cadastro de Veiculos.
+        /// </summary>
+        internal static string CstCadastroVeiculos {
+            get {
+                return ResourceManager.GetString("CstCadastroVeiculos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Diesel.
+        /// </summary>
+        internal static string CstDiesel {
+            get {
+                return ResourceManager.GetString("CstDiesel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Flex.
+        /// </summary>
+        internal static string CstFlex {
+            get {
+                return ResourceManager.GetString("CstFlex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gasolina.
+        /// </summary>
+        internal static string CstGasolina {
+            get {
+                return ResourceManager.GetString("CstGasolina", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Descrição.
         /// </summary>
         internal static string Descricao {

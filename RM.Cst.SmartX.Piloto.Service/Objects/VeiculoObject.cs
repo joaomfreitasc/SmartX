@@ -15,10 +15,10 @@ namespace RM.Cst.SmartX.Piloto.Service
             typeof(Properties.Resources),
             nameof(Properties.Resources.CodigoDaColigada),
             nameof(Properties.Resources.CodigoDaColigada),
-            Required = true,
-            //Hidden = true,
+            Required = false,
+            Hidden = true,
             IsPrimaryKey = true)]
-        public int CodColigada { get; set; }
+        public int? CodColigada { get; set; }
 
         [SXPropertyAttr("COD_VEICULO",
             typeof(Properties.Resources),
@@ -49,6 +49,9 @@ namespace RM.Cst.SmartX.Piloto.Service
             nameof(Properties.Resources.AnoDaFabricacao),
             nameof(Properties.Resources.AnoDaFabricacao),
             Required = true,
+            Mask = "9999",
+            MaxLength = 4,
+            MinLength =4,
             IsPrimaryKey = false)]
         public string AnoFabricacao { get; set; }
 
@@ -57,6 +60,9 @@ namespace RM.Cst.SmartX.Piloto.Service
             nameof(Properties.Resources.AnoDoModelo),
             nameof(Properties.Resources.AnoDoModelo),
             Required = true,
+            Mask = "9999",
+            MaxLength = 4,
+            MinLength = 4,
             IsPrimaryKey = false)]
         public string AnoModelo { get; set; }
 
@@ -66,6 +72,11 @@ namespace RM.Cst.SmartX.Piloto.Service
             nameof(Properties.Resources.Combustivel),
             Required = true,
             IsPrimaryKey = false)]
+        [SXOptionValues(new object[] { 0, 1, 2, 3 }, typeof(Properties.Resources),
+        new string[] { nameof(Properties.Resources.CstGasolina),
+                     nameof(Properties.Resources.CstAlcool),
+                     nameof(Properties.Resources.CstFlex),
+                     nameof(Properties.Resources.CstDiesel)})]
         public int Combustivel { get; set; }
 
         [SXPropertyAttr("SIMBOLO",

@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Customizacao\\PilotoSmartX\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F1ABC-1428-4833-B173-01171E38A958}|RM.Cst.SmartX.Piloto.Service\\RM.Cst.SmartX.Piloto.Service.csproj|c:\\customizacao\\pilotosmartx\\rm.cst.smartx.piloto.service\\models\\veiculomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F1ABC-1428-4833-B173-01171E38A958}|RM.Cst.SmartX.Piloto.Service\\RM.Cst.SmartX.Piloto.Service.csproj|solutionrelative:rm.cst.smartx.piloto.service\\models\\veiculomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F1ABC-1428-4833-B173-01171E38A958}|RM.Cst.SmartX.Piloto.Service\\RM.Cst.SmartX.Piloto.Service.csproj|C:\\Customizacao\\PilotoSmartX\\rm.cst.smartx.piloto.service\\objects\\veiculoobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F1ABC-1428-4833-B173-01171E38A958}|RM.Cst.SmartX.Piloto.Service\\RM.Cst.SmartX.Piloto.Service.csproj|solutionrelative:rm.cst.smartx.piloto.service\\objects\\veiculoobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F1ABC-1428-4833-B173-01171E38A958}|RM.Cst.SmartX.Piloto.Service\\RM.Cst.SmartX.Piloto.Service.csproj|C:\\Customizacao\\PilotoSmartX\\rm.cst.smartx.piloto.service\\routines\\veiculoroutine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F1ABC-1428-4833-B173-01171E38A958}|RM.Cst.SmartX.Piloto.Service\\RM.Cst.SmartX.Piloto.Service.csproj|solutionrelative:rm.cst.smartx.piloto.service\\routines\\veiculoroutine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
@@ -34,6 +43,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeiculoObject.cs",
+              "DocumentMoniker": "C:\\Customizacao\\PilotoSmartX\\RM.Cst.SmartX.Piloto.Service\\Objects\\VeiculoObject.cs",
+              "RelativeDocumentMoniker": "RM.Cst.SmartX.Piloto.Service\\Objects\\VeiculoObject.cs",
+              "ToolTip": "C:\\Customizacao\\PilotoSmartX\\RM.Cst.SmartX.Piloto.Service\\Objects\\VeiculoObject.cs",
+              "RelativeToolTip": "RM.Cst.SmartX.Piloto.Service\\Objects\\VeiculoObject.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:48:49.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VeiculoModel.cs",
+              "DocumentMoniker": "C:\\Customizacao\\PilotoSmartX\\RM.Cst.SmartX.Piloto.Service\\Models\\VeiculoModel.cs",
+              "RelativeDocumentMoniker": "RM.Cst.SmartX.Piloto.Service\\Models\\VeiculoModel.cs",
+              "ToolTip": "C:\\Customizacao\\PilotoSmartX\\RM.Cst.SmartX.Piloto.Service\\Models\\VeiculoModel.cs",
+              "RelativeToolTip": "RM.Cst.SmartX.Piloto.Service\\Models\\VeiculoModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:26:06.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VeiculoRoutine.cs",
+              "DocumentMoniker": "C:\\Customizacao\\PilotoSmartX\\RM.Cst.SmartX.Piloto.Service\\Routines\\VeiculoRoutine.cs",
+              "RelativeDocumentMoniker": "RM.Cst.SmartX.Piloto.Service\\Routines\\VeiculoRoutine.cs",
+              "ToolTip": "C:\\Customizacao\\PilotoSmartX\\RM.Cst.SmartX.Piloto.Service\\Routines\\VeiculoRoutine.cs",
+              "RelativeToolTip": "RM.Cst.SmartX.Piloto.Service\\Routines\\VeiculoRoutine.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:36:49.775Z"
             }
           ]
         },

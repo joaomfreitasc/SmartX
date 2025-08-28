@@ -162,6 +162,21 @@
   <data name="CorObject" xml:space="preserve">
     <value>Cor</value>
   </data>
+  <data name="CstAlcool" xml:space="preserve">
+    <value>Alcool</value>
+  </data>
+  <data name="CstCadastroVeiculos" xml:space="preserve">
+    <value>Cadastro de Veiculos</value>
+  </data>
+  <data name="CstDiesel" xml:space="preserve">
+    <value>Diesel</value>
+  </data>
+  <data name="CstFlex" xml:space="preserve">
+    <value>Flex</value>
+  </data>
+  <data name="CstGasolina" xml:space="preserve">
+    <value>Gasolina</value>
+  </data>
   <data name="Descricao" xml:space="preserve">
     <value>Descrição</value>
   </data>

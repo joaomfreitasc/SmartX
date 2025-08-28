@@ -68,6 +68,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Objects\VeiculoObject.cs" />
+    <Compile Include="Routines\VeiculoRoutine.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

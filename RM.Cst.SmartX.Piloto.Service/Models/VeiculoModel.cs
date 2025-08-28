@@ -18,5 +18,10 @@ namespace RM.Cst.SmartX.Piloto.Service.Models
             typeof(Properties.Resources),
             nameof(Properties.Resources.OpcionaisVeiculo))]
         public List<OpcionalVeiculoObject> Opcionais { get; set; } = new List<OpcionalVeiculoObject>();
+
+        protected override void DoBeforeCreate(BeforeCreateParams parms)
+        {
+            this.CodColigada = 1;
+        }
     }
 }
