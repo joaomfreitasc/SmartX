@@ -79,6 +79,15 @@ namespace RM.Cst.SmartX.Piloto.Service.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ano modelo pode ser no máximo 1 ano maior que o ano de fabricação.
+        /// </summary>
+        internal static string AnoModeloNaoPodeSerMaiorQueAnoFabricacao {
+            get {
+                return ResourceManager.GetString("AnoModeloNaoPodeSerMaiorQueAnoFabricacao", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Código.
         /// </summary>
         internal static string Codigo {

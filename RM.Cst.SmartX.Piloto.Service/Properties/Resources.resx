@@ -123,6 +123,9 @@
   <data name="AnoDoModelo" xml:space="preserve">
     <value>Ano do Modelo</value>
   </data>
+  <data name="AnoModeloNaoPodeSerMaiorQueAnoFabricacao" xml:space="preserve">
+    <value>Ano modelo pode ser no máximo 1 ano maior que o ano de fabricação</value>
+  </data>
   <data name="Codigo" xml:space="preserve">
     <value>Código</value>
   </data>

@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace RM.Cst.SmartX.Piloto.Service.Models
 {
-    [SXModelAttr("OpcionalVeiculoModel", CodSistema.Fop, typeof(Properties.Resources), nameof(Properties.Resources.OpcionalVeiculoModel))]
+    [SXModelAttr("CstCorModel", CodSistema.Fop, typeof(Properties.Resources), nameof(Properties.Resources.CorModel))]
     [SXModelSecurityAttr(0)]
-    public class OpcionalVeiculoModel : OpcionalVeiculoObject, ISXModel
+    public class CstCorModel : CstCorObject, ISXModel
     {
 
     }

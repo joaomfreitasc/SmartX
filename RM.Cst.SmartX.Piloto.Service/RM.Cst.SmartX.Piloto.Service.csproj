@@ -25,7 +25,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\..\..\RM\Atual\Release\Bin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -50,25 +50,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\CorModel.cs" />
-    <Compile Include="Models\MarcaModel.cs" />
-    <Compile Include="Models\OpcionalModel.cs" />
-    <Compile Include="Models\OpcionalVeiculoModel.cs" />
-    <Compile Include="Models\ParametrosModel.cs" />
-    <Compile Include="Models\VeiculoModel.cs" />
-    <Compile Include="Objects\CorObject.cs" />
-    <Compile Include="Objects\MarcaObject.cs" />
-    <Compile Include="Objects\OpcionalObject.cs" />
-    <Compile Include="Objects\OpcionalVeiculoObject.cs" />
-    <Compile Include="Objects\ParametrosObject.cs" />
+    <Compile Include="Models\CstCorModel.cs" />
+    <Compile Include="Models\CstMarcaModel.cs" />
+    <Compile Include="Models\CstOpcionalModel.cs" />
+    <Compile Include="Models\CstOpcionalVeiculoModel.cs" />
+    <Compile Include="Models\CstParametrosModel.cs" />
+    <Compile Include="Models\CstVeiculoModel.cs" />
+    <Compile Include="Objects\CstCorObject.cs" />
+    <Compile Include="Objects\CstMarcaObject.cs" />
+    <Compile Include="Objects\CstOpcionalObject.cs" />
+    <Compile Include="Objects\CstOpcionalVeiculoObject.cs" />
+    <Compile Include="Objects\CstParametrosObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Objects\VeiculoObject.cs" />
-    <Compile Include="Routines\VeiculoRoutine.cs" />
+    <Compile Include="Objects\CstVeiculoObject.cs" />
+    <Compile Include="Routines\CstCorRoutine.cs" />
+    <Compile Include="Routines\CstMarcaRoutine.cs" />
+    <Compile Include="Routines\CstOpcionalRoutine.cs" />
+    <Compile Include="Routines\CstVeiculoRoutine.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
