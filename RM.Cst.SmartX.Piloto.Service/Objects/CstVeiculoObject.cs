@@ -21,9 +21,11 @@ namespace RM.Cst.SmartX.Piloto.Service
         typeof(Properties.Resources),
         nameof(Properties.Resources.CodigoDoVeiculo),
         nameof(Properties.Resources.CodigoDoVeiculo),
-        Required = true,
+        Required = false,
+        //DefaultValue = -1,
+        //ReadOnly = true,
         IsPrimaryKey = true)]
-    public int CodVeiculo { get; set; }
+    public int? CodVeiculo { get; set; } //Esse campo precisa ser int? proque o valor nçãoi sera passado pela tela.
 
     [SXPropertyAttr("COD_MARCA",
         typeof(Properties.Resources),
