@@ -25,9 +25,9 @@ namespace RM.Cst.SmartX.Piloto.Service
         typeof(Properties.Resources),
         nameof(Properties.Resources.CodigoDaMarca),
         nameof(Properties.Resources.CodigoDaMarca),
-        Required = true,
+        Required = false,
         IsPrimaryKey = true)]
-    public int CodMarca { get; set; }
+    public int? CodMarca { get; set; }
 
     [SXPropertyAttr("DESCRICAO",
         typeof(Properties.Resources),

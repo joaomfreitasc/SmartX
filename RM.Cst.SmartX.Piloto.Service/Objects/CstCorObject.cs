@@ -25,9 +25,9 @@ namespace RM.Cst.SmartX.Piloto.Service
         typeof(Properties.Resources),
         nameof(Properties.Resources.CodigoDaCor),
         nameof(Properties.Resources.CodigoDaCor),
-        Required = true,
+        Required = false,
         IsPrimaryKey = true)]
-    public int CodCor { get; set; }
+    public int? CodCor { get; set; }
 
     [SXPropertyAttr("DESCRICAO",
         typeof(Properties.Resources),
