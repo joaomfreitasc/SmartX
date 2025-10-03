@@ -10,8 +10,7 @@ namespace RM.Cst.SmartX.Piloto.Service.Models
   //herda de uma classe e uma interface
   public class CstVeiculoModel : CstVeiculoObject, ISXModel
   {
-    /* Erlon: Não descomentar nesse momento. Iremos falar de mestre/detalhe mais pra frente.
-      [SXRelationAttr("fk_veiculo_opcional",
+      /*[SXRelationAttr("fk_veiculo_opcional",
           new string[] { "CODCOLIGADA", "COD_VEICULO" },
           new string[] { "CODCOLIGADA", "COD_VEICULO" },
         typeof(Properties.Resources),
@@ -47,7 +46,7 @@ namespace RM.Cst.SmartX.Piloto.Service.Models
          .WithModelRef("GlbMoedaModel")
          .WithDisplayFields(new[] { nameof(GlbMoedaModel.Simbolo), nameof(GlbMoedaModel.Descricao)})
          .WithFieldValue(nameof(GlbMoedaModel.Simbolo))
-         .WithLookupFinder(new FinderResult(new[] { nameof(GlbMoedaModel.Simbolo), nameof(GlbMoedaModel.Descricao) }))));
+         .WithLookupFinder(new FinderResult(new[] { nameof(GlbMoedaModel.Simbolo) }))));
     }
 
     protected override void DoBeforeCreate(BeforeCreateParams parms)

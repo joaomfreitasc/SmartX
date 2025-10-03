@@ -40,6 +40,11 @@
       <HintPath>..\..\..\RM\Atual\Release\Bin\RM.Lib.SmartX.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="RM.Lib.WinForms.Chromium, Version=12.1.2602.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RM\Atual\Release\Bin\RM.Lib.WinForms.Chromium.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\CstVeiculoAction.cs" />
     <Compile Include="Models\CstCorModel.cs" />
     <Compile Include="Models\CstMarcaModel.cs" />
     <Compile Include="Models\CstOpcionalModel.cs" />

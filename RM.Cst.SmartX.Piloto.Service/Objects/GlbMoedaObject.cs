@@ -1,9 +1,4 @@
 ﻿using RM.Lib.SmartX;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RM.Cst.SmartX.Piloto.Service
 {
@@ -17,7 +12,7 @@ namespace RM.Cst.SmartX.Piloto.Service
         nameof(Properties.Resources.CodigoDaColigada),
         Required = true,
         IsPrimaryKey = true)]
-    public int Simbolo { get; set; }
+    public string Simbolo { get; set; }
 
     [SXPropertyAttr("DESCRICAO",
         typeof(Properties.Resources),
@@ -25,7 +20,7 @@ namespace RM.Cst.SmartX.Piloto.Service
         nameof(Properties.Resources.CodigoDaCor),
         Required = false,
         IsPrimaryKey = false)]
-    public int? Descricao { get; set; }
+    public string Descricao { get; set; }
   }
 }
 

@@ -88,6 +88,15 @@ namespace RM.Cst.SmartX.Piloto.Service.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cadastro de veiculo.
+        /// </summary>
+        internal static string CadastroVeiculos {
+            get {
+                return ResourceManager.GetString("CadastroVeiculos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Código.
         /// </summary>
         internal static string Codigo {

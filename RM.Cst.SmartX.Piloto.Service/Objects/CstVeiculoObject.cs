@@ -92,6 +92,6 @@ namespace RM.Cst.SmartX.Piloto.Service
         nameof(Properties.Resources.Vendido),
         Required = true,
         IsPrimaryKey = false)]
-    public int Vendido { get; set; } //? significa que aceita null
+    public bool Vendido { get; set; } //? significa que aceita null
   }
 }
