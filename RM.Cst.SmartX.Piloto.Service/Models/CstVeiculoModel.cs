@@ -41,7 +41,13 @@ namespace RM.Cst.SmartX.Piloto.Service.Models
           .WithFieldValue(nameof(CstCorModel.CodCor))
           .WithLookupFinder(new FinderResult(new[] { nameof(CstCorModel.CodColigada), nameof(CstCorModel.CodCor)}))));
 
-
+      builder.SetProperty(p => p
+       .WithProperty(nameof(CstVeiculoObject.Simbolo))
+       .AddLookup(l => l
+         .WithModelRef("GlbMoedaModel")
+         .WithDisplayFields(new[] { nameof(GlbMoedaModel.Simbolo), nameof(GlbMoedaModel.Descricao)})
+         .WithFieldValue(nameof(GlbMoedaModel.Simbolo))
+         .WithLookupFinder(new FinderResult(new[] { nameof(GlbMoedaModel.Simbolo), nameof(GlbMoedaModel.Descricao) }))));
     }
 
     protected override void DoBeforeCreate(BeforeCreateParams parms)

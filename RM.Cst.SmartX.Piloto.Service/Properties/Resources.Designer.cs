@@ -295,6 +295,24 @@ namespace RM.Cst.SmartX.Piloto.Service.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Modelo de Moeda.
+        /// </summary>
+        internal static string MoedaModel {
+            get {
+                return ResourceManager.GetString("MoedaModel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Moeda.
+        /// </summary>
+        internal static string MoedaObject {
+            get {
+                return ResourceManager.GetString("MoedaObject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Opcionais do Veiculo.
         /// </summary>
         internal static string OpcionaisVeiculo {

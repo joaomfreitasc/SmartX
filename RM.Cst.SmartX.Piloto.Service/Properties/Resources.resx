@@ -195,6 +195,12 @@
   <data name="MarcaObject" xml:space="preserve">
     <value>Marca</value>
   </data>
+  <data name="MoedaModel" xml:space="preserve">
+    <value>Modelo de Moeda</value>
+  </data>
+  <data name="MoedaObject" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
   <data name="OpcionaisVeiculo" xml:space="preserve">
     <value>Opcionais do Veiculo</value>
   </data>
