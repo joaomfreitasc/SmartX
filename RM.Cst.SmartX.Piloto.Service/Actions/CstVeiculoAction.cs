@@ -22,12 +22,5 @@ namespace RM.Cst.SmartX.Piloto.Service
         RMSSession.Context.CodSistema
       };
     }
-
-    protected override SmartXConfig SmartXConfig()
-    {
-      var config = base.SmartXConfig();
-      config.showMenu = false;
-      return config;
-    }
   }
 }
