@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<SDKSolution xmlns="http://tempuri.org/SDKSolution.xsd">
+  <GCSTSOLUTION>
+    <IDSOLUTION>d8967b0c-6d5b-4da0-a934-c102fe37c7dd</IDSOLUTION>
+    <NAME>PilotoSmartX</NAME>
+    <VERSION>12.00</VERSION>
+    <PATH>C:\Customizacao\PilotoSmartX</PATH>
+    <LIBPATH>C:\RM\Atual\Release\Bin</LIBPATH>
+    <SELECTEDCNPJ>21.867.387/0001-58</SELECTEDCNPJ>
+    <GCSTACTION>
+      <IDSOLUTION>d8967b0c-6d5b-4da0-a934-c102fe37c7dd</IDSOLUTION>
+      <IDACTION>RM.Cst.SmartX.Piloto.Service.Models.CstVeiculoAction</IDACTION>
+      <ASSEMBLYNAME>CRM.Cst.SmartX.Piloto.dll</ASSEMBLYNAME>
+      <TIPOACTION>0</TIPOACTION>
+      <GCSTACTIONCLIENTE>
+        <IDSOLUTION>d8967b0c-6d5b-4da0-a934-c102fe37c7dd</IDSOLUTION>
+        <IDACTION>RM.Cst.SmartX.Piloto.Service.Models.CstVeiculoAction</IDACTION>
+        <CNPJ>21.867.387/0001-58</CNPJ>
+        <SECURITYKEY>\E9W\28\81\02\2F\ABZ</SECURITYKEY>
+      </GCSTACTIONCLIENTE>
+    </GCSTACTION>
+    <GCSTCLIENTE>
+      <IDSOLUTION>d8967b0c-6d5b-4da0-a934-c102fe37c7dd</IDSOLUTION>
+      <CNPJ>21.867.387/0001-58</CNPJ>
+      <NOME>TOTVS</NOME>
+    </GCSTCLIENTE>
+  </GCSTSOLUTION>
+</SDKSolution>

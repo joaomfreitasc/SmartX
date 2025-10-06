@@ -1,0 +1,8 @@
+C:\RM\Atual\Release\Bin\Custom\RM.Cst.SmartX.Piloto.Form.dll
+C:\RM\Atual\Release\Bin\Custom\RM.Cst.SmartX.Piloto.Form.pdb
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Form\obj\Debug\RM.Cst.SmartX.Piloto.Form.csproj.AssemblyReference.cache
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Form\obj\Debug\RM.Cst.SmartX.Piloto.Form.Properties.Resources.resources
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Form\obj\Debug\RM.Cst.SmartX.Piloto.Form.csproj.GenerateResource.cache
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Form\obj\Debug\RM.Cst.SmartX.Piloto.Form.csproj.CoreCompileInputs.cache
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Form\obj\Debug\RM.Cst.SmartX.Piloto.Form.dll
+C:\Customizacao\PilotoSmartX\RM.Cst.SmartX.Piloto.Form\obj\Debug\RM.Cst.SmartX.Piloto.Form.pdb

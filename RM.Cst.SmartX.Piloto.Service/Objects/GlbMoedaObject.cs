@@ -16,8 +16,8 @@ namespace RM.Cst.SmartX.Piloto.Service
 
     [SXPropertyAttr("DESCRICAO",
         typeof(Properties.Resources),
-        nameof(Properties.Resources.CodigoDaCor),
-        nameof(Properties.Resources.CodigoDaCor),
+        nameof(Properties.Resources.DescricaoDaMoeda),
+        nameof(Properties.Resources.DescricaoDaMoeda),
         Required = false,
         IsPrimaryKey = false)]
     public string Descricao { get; set; }
