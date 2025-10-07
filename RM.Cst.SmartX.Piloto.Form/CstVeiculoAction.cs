@@ -7,8 +7,6 @@ namespace RM.Cst.SmartX.Piloto.Form
 {
   [HostClientEnabled]
   [ActionInfo(typeof(Properties.Resources), nameof(Properties.Resources.CadastroVeiculos), CodSistema.Fop, 0)]
-  [CustomMenu(typeof(Properties.Resources), CustomButtonSize.Small, 2, nameof(Properties.Resources.CadastroVeiculos))]
-  [CustomGroup("Veiculo", 0)]
   
   public class CstVeiculoAction : RMSActionSmartX
   {
